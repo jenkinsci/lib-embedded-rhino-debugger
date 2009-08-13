@@ -8,7 +8,7 @@
   </parent>
   <groupId>org.jvnet.hudson</groupId>
   <artifactId>embedded-rhino-debugger</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.1</version>
   <name>embedded-rhino-debugger</name>
   <description>Swing-based Rhino debugger that's embeddable.</description>
   <dependencies>
@@ -24,4 +24,10 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <scm>
+    <connection>scm:svn:https://guest@svn.dev.java.net/svn/hudson/tags/embedded-rhino-debugger-1.1</connection>
+    <developerConnection>scm:svn:https://svn.dev.java.net/svn/hudson/tags/embedded-rhino-debugger-1.1</developerConnection>
+    <url>https://hudson.dev.java.net/source/browse/hudson/tags/embedded-rhino-debugger-1.1</url>
+  </scm>
 </project>
